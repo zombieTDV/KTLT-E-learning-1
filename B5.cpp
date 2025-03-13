@@ -20,20 +20,20 @@ int main(){
 
     switch (_operator){
     case '+':
-        cout << "Kết quả của a + b: " << a + b << '\n';
+        cout << "Kết quả của a + b = " << a + b << '\n';
         break;
     
     case '-':
-        cout << "Kết quả của a - b: " << a - b << '\n';
+        cout << "Kết quả của a - b = " << a - b << '\n';
         break;
 
     case '*':
-        cout << "Kết quả của a * b: " << a * b << '\n';
+        cout << "Kết quả của a * b = " << a * b << '\n';
         break;
     
     case '/':
     if (b!=0){
-        cout << "Kết quả của a / b: " << (float)a / b << '\n';
+        cout << "Kết quả của a / b = " << (float)a / b << '\n';
         break;
     }
     else{
